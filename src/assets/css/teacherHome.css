@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Hero-section {
+    display: flex;
+    max-height: 90vh;
+    justify-content: space-between;
+    align-items: start;
+    overflow: hidden;
+    padding: 3rem 4rem;
+    background-color: #f8f9fa;
+}
+
+.left-side {
+    width: 20%;
+}
+
+.learn-more-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    color: #FFFFFE;
+    gap: 1rem;
+    background-color: #121212;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.learn-more-card p {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.learn-more-card .btn {
+    width: 100%;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 0.8rem 2rem;
+    outline: none;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+    color: #020A1B;
+    background-color: #88D0FF;
+}
+
+.right-side {
+    width: 80%;
+    padding-left: 2rem;
+}

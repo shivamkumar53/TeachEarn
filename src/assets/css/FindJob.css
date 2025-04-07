@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Hero-section {
+    display: flex;
+    max-height: 91vh;
+    justify-content: space-between;
+    align-items: start;
+    overflow: hidden;
+    padding: 3rem 4rem;
+    background-color: #f8f9fa;
+}
+
+.job-filter-parent {
+    width: 20%;
+}
+
+.ads-card-parent {
+    text-align: center;
+    border-radius: 30px;
+    padding: 1.8rem 1.5rem;
+    line-height: 2.4rem;
+    font-weight: 600;
+    background-color: black;
+    color: #FFFF;
+    font-size: 1.8rem;
+}
+
+.ads-card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: center;
+}
+
+.ads-card button {
+    width: 80%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 0.2rem 1rem;
+    outline: none;
+    font-weight: 550;
+    border: none;
+    border-radius: 50px;
+    color: #020A1B;
+    background-color: #88D0FF;
+}

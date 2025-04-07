@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'LinotteBold';
+  src: url('./fonts/Linotte-Bold.ttf') format('truetype');
+}
+body{
+    margin: 0;
+    font-family: 'LinotteBold', sans-serif;
+    background-color: #F9F9F9;
+}
+
+body::-webkit-scrollbar {
+    width: 0rem;
+    border-radius: 20px;
+}
